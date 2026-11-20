@@ -1,0 +1,46 @@
+ProductionOrderId,PlantId,MaterialId,PlantName,MaterialName,PlannedStartDate,ShortageQuantity,SupplierContext,RiskReason,UnitOfMeasure
+PR001,P01,M01,Plant North,Bearing Kit,2026-11-11,35,Supplier D,Material shortage,Each
+PR002,P01,M02,Plant North,Seal Kit,2026-11-12,35,Supplier E,Material shortage,Each
+PR003,P01,M03,Plant North,Valve Kit,2026-11-13,35,Supplier F,Material shortage,Each
+PR004,P01,M04,Plant North,Rotor Kit,2026-11-14,35,Supplier A,Material shortage,Each
+PR005,P01,M05,Plant North,Housing Kit,2026-11-15,0,Supplier B,No material shortage,Each
+PR006,P01,M06,Plant North,Gasket Kit,2026-11-16,0,Supplier C,No material shortage,Each
+PR007,P01,M07,Plant North,Connector Kit,2026-11-17,0,Supplier D,No material shortage,Each
+PR008,P01,M08,Plant North,Clamp Kit,2026-11-11,0,Supplier E,No material shortage,Each
+PR009,P01,M09,Plant North,Coupler Kit,2026-11-12,0,Supplier F,No material shortage,Each
+PR010,P01,M10,Plant North,Sensor Kit,2026-11-13,0,Supplier D,No material shortage,Each
+PR011,P01,M11,Plant North,Cover Kit,2026-11-14,0,Supplier E,No material shortage,Each
+PR012,P01,M12,Plant North,Shaft Kit,2026-11-15,0,Supplier F,No material shortage,Each
+PR013,P01,M13,Plant North,Spring Kit,2026-11-16,0,Supplier A,No material shortage,Each
+PR014,P01,M14,Plant North,Bracket Kit,2026-11-17,0,Supplier B,No material shortage,Each
+PR015,P01,M15,Plant North,Filter Kit,2026-11-11,0,Supplier C,No material shortage,Each
+PR016,P02,M01,Plant South,Bearing Kit,2026-11-12,35,Supplier D,Material shortage,Each
+PR017,P02,M02,Plant South,Seal Kit,2026-11-13,35,Supplier E,Material shortage,Each
+PR018,P02,M03,Plant South,Valve Kit,2026-11-14,35,Supplier F,Material shortage,Each
+PR019,P02,M04,Plant South,Rotor Kit,2026-11-15,35,Supplier D,Material shortage,Each
+PR020,P02,M05,Plant South,Housing Kit,2026-11-16,0,Supplier E,No material shortage,Each
+PR021,P02,M06,Plant South,Gasket Kit,2026-11-17,0,Supplier F,No material shortage,Each
+PR022,P02,M07,Plant South,Connector Kit,2026-11-11,0,Supplier A,No material shortage,Each
+PR023,P02,M08,Plant South,Clamp Kit,2026-11-12,0,Supplier B,No material shortage,Each
+PR024,P02,M09,Plant South,Coupler Kit,2026-11-13,0,Supplier C,No material shortage,Each
+PR025,P02,M10,Plant South,Sensor Kit,2026-11-14,0,Supplier D,No material shortage,Each
+PR026,P02,M11,Plant South,Cover Kit,2026-11-15,0,Supplier E,No material shortage,Each
+PR027,P02,M12,Plant South,Shaft Kit,2026-11-16,0,Supplier F,No material shortage,Each
+PR028,P02,M13,Plant South,Spring Kit,2026-11-17,0,Supplier D,No material shortage,Each
+PR029,P02,M14,Plant South,Bracket Kit,2026-11-11,0,Supplier E,No material shortage,Each
+PR030,P02,M15,Plant South,Filter Kit,2026-11-12,0,Supplier F,No material shortage,Each
+PR031,P03,M01,Plant East,Bearing Kit,2026-11-13,35,Supplier A,Material shortage,Each
+PR032,P03,M02,Plant East,Seal Kit,2026-11-14,35,Supplier B,Material shortage,Each
+PR033,P03,M03,Plant East,Valve Kit,2026-11-15,35,Supplier C,Material shortage,Each
+PR034,P03,M04,Plant East,Rotor Kit,2026-11-16,35,Supplier D,Material shortage,Each
+PR035,P03,M05,Plant East,Housing Kit,2026-11-17,0,Supplier E,No material shortage,Each
+PR036,P03,M06,Plant East,Gasket Kit,2026-11-11,0,Supplier F,No material shortage,Each
+PR037,P03,M07,Plant East,Connector Kit,2026-11-12,0,Supplier D,No material shortage,Each
+PR038,P03,M08,Plant East,Clamp Kit,2026-11-13,0,Supplier E,No material shortage,Each
+PR039,P03,M09,Plant East,Coupler Kit,2026-11-14,0,Supplier F,No material shortage,Each
+PR040,P03,M10,Plant East,Sensor Kit,2026-11-15,0,Supplier D,No material shortage,Each
+PR041,P03,M11,Plant East,Cover Kit,2026-11-16,0,Supplier E,No material shortage,Each
+PR042,P03,M12,Plant East,Shaft Kit,2026-11-17,0,Supplier F,No material shortage,Each
+PR043,P03,M13,Plant East,Spring Kit,2026-11-11,0,Supplier A,No material shortage,Each
+PR044,P03,M14,Plant East,Bracket Kit,2026-11-12,0,Supplier B,No material shortage,Each
+PR045,P03,M15,Plant East,Filter Kit,2026-11-13,0,Supplier C,No material shortage,Each
