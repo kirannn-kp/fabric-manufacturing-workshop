@@ -3,7 +3,7 @@ published: false
 type: workshop
 title: Manufacturing Operations with Microsoft Fabric
 short_title: Fabric Manufacturing Workshop
-description: A beginner-friendly, click-by-click workshop that uses Microsoft Fabric to identify manufacturing production risks.
+description: Investigate one manufacturing incident in Microsoft Fabric, explain the evidence, and plan a human-reviewed maintenance pilot.
 level: beginner
 authors:
   - Kiran Panchal
@@ -15,36 +15,26 @@ tags: microsoft-fabric, manufacturing, onelake, lakehouse, real-time-intelligenc
 
 # Start here
 
-- [Prerequisites](docs/00-prerequisites.md)
-- [Business scenario](docs/01-business-scenario.md)
+- [Three-day manufacturing incident lab](docs/incident-lab.md) — the main route through Lakehouse, Eventhouse, Data Agent, semantic models, ontology, and Operations Agent. No Power BI report authoring is required.
 - [Synthetic data and validation](data/validation-summary.md)
 
 ---
 
-# Day 1: Load and explore
+# Day 1: Find and verify the incident
 
-- [Day 1 agenda](docs/day-1/README.md)
-- [OneLake and Lakehouse](docs/day-1/01-onelake-lakehouse.md)
-- [Eventhouse and machine events](docs/day-1/02-eventhouse.md)
-- [Fabric Data Agent and manual fallback](docs/day-1/03-data-agent.md)
+- [Open Day 1](docs/incident-lab.md#day-1--find-and-verify-the-incident): load the plant lookup, query fault records, and compare the Data Agent's answers to KQL.
 
 ---
 
-# Day 2: Model and report
+# Day 2: Give the evidence business context
 
-- [Day 2 agenda](docs/day-2/README.md)
-- [Semantic model](docs/day-2/01-semantic-model.md)
-- [Business definitions and question quality](docs/day-2/02-business-definitions.md)
-- [Power BI report](docs/day-2/03-power-bi-report.md)
-- [Team challenge](docs/day-2/04-team-challenge.md)
+- [Open Day 2](docs/incident-lab.md#day-2--give-the-evidence-business-context): run read-only DAX, draw an ontology, and choose a first maintenance review.
 
 ---
 
-# Day 3: Decide what to pilot
+# Day 3: Review an Operations Agent rule and design a pilot
 
-- [Day 3 agenda](docs/day-3/README.md)
-- [Optional Foundry demonstration](docs/day-3/01-optional-foundry-demo.md)
-- [PoC planning](docs/day-3/02-poc-planning.md)
+- [Open Day 3](docs/incident-lab.md#day-3--review-an-operations-agent-rule-and-design-a-pilot): inspect a stopped playbook, replay its threshold against historical data, and write a pilot handoff.
 
 ---
 
@@ -53,3 +43,4 @@ tags: microsoft-fabric, manufacturing, onelake, lakehouse, real-time-intelligenc
 - [Troubleshooting](docs/troubleshooting.md)
 - [Facilitator guide](facilitator/README.md)
 - [References](docs/references.md)
+- [Optional report authoring](docs/day-2/03-power-bi-report.md) and [optional Foundry demonstration](docs/day-3/01-optional-foundry-demo.md) belong to the extended agenda, not the main route.

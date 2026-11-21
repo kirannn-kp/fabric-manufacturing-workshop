@@ -1,5 +1,13 @@
 # Environment setup and rehearsal
 
+## Three-day incident lab: recommended setup
+
+- **Day 1:** Assign an editable team Lakehouse and a KQL database with the 500 synthetic `machine_events` rows already loaded as a fallback. With a normal attendee account, verify table creation and draft Data Agent access to the KQL source. If an attendee cannot create a draft, use the peer comparison with the KQL answers.
+- **Day 2:** Prepare a Direct Lake semantic model with `plants` and `machine_events` from the workshop Lakehouse. Test that attendees can run the exact DAX in the [incident lab](../docs/incident-lab.md), including in Viewing mode. If access fails, use the KQL results and plant lookup. Only show the plant relationship and saved measure after testing them. For the live ontology extension, ask a Fabric admin to verify that **Users can create ontology (preview) items** applies to the intended group, and verify a prepared ontology before class. Otherwise use the diagram exercise.
+- **Day 3:** Save a playbook against the synthetic KQL database. Verify the grouping, threshold, and the historical replay (two groups at 3+, none at 9+). Keep the agent stopped and configure no actions. Rehearse the pilot handoff with the evidence card, including a named human owner, decision criteria, and a checkpoint.
+
+The remaining setup below is for the extended report-based agenda only. No baseline Power BI report or Foundry resource is required for the incident lab.
+
 ## One week before
 
 1. Ask the Fabric tenant and capacity admins to verify Fabric creation for the workshop group, capacity region/state, browser semantic-model editing, and author/reader licensing. Check guest policies if applicable. Give facilitators the workspace management rights they need; use **Contributor** for team authors where sufficient. Give reference viewers only the Read rights needed and authorize Build for report authors where required.
