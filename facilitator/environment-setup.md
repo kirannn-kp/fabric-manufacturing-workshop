@@ -8,6 +8,7 @@ Use the [onsite schedule](../docs/onsite-workshop.md). Monday and Tuesday each h
 |---|---|---|
 | Monday concepts and demo | Show a file, Lakehouse table, and KQL query. Explain the two copies of telemetry. | Use the item diagram and evidence card. |
 | Monday data labs | Stage a fallback Lakehouse with `plants` and `machine_events`, plus a KQL database with the 500 events. | Use prepared tables, then CSV checks if necessary. |
+| Monday SQL and dashboard | Check table visibility at the Lakehouse SQL analytics endpoint. Rehearse saving both KQL queries as tiles to one Real-Time Dashboard. These additions were not part of the original live rehearsal. | Use the prepared endpoint or CSV for SQL checks; keep KQL results in two tabs if dashboard creation is unavailable. |
 | Tuesday model, Data Agent, and ontology | Open the prepared two-table model and KQL database. Use the verified DAX query in Viewing mode. Only offer relationship editing or live ontology if separately verified. | Use the read-only model, KQL evidence, and the ontology diagram. |
 | Tuesday Operations Agent | Open the saved, stopped playbook. Leave actions unconfigured; use the reference KQL for the threshold replay. | Review the rule and replay from the evidence card. |
 | Wednesday Foundry and PoC | Bring a diagram and the Day 2 answers. Use a live read-only demo only if already prepared and verified. Close by recording PoC scope, owner, success criteria, and a dated next step. | Deliver the same walkthrough without Foundry. No participant account is needed. |
