@@ -23,6 +23,12 @@ tags: microsoft-fabric, manufacturing, onelake, lakehouse, real-time-intelligenc
 
 ---
 
+# What we're solving — problem and architecture
+
+- [See the maintenance problem and data-flow diagram](docs/onsite-workshop.md#what-were-solving--problem-and-architecture) before starting the labs.
+
+---
+
 # Day 1: Build the data assets in Fabric
 
 - [Open Day 1](docs/onsite-workshop.md#day-1--build-the-data-assets-in-fabric): 09:30–16:00. Start with Fabric concepts and a demo, then build a Lakehouse and Eventhouse, verify data with SQL, and create a maintenance dashboard if enabled.
