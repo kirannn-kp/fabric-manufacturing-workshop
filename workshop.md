@@ -1,46 +1,38 @@
 ---
 published: false
 type: workshop
-title: Manufacturing Operations with Microsoft Fabric
+title: Manufacturing Operations with Microsoft Fabric and Foundry
 short_title: Fabric Manufacturing Workshop
-description: Investigate one manufacturing incident in Microsoft Fabric, explain the evidence, and plan a human-reviewed maintenance pilot.
+description: A three-day workshop on ERP-to-OneLake architecture, Microsoft Fabric, grounded agents, and production readiness.
 level: beginner
 authors:
   - Kiran Panchal
 contacts:
-  - Kiran Panchal
-duration_minutes: 720
-tags: microsoft-fabric, manufacturing, onelake, lakehouse, real-time-intelligence, power-bi, data-agent
+  - "@kirannn-kp"
+duration_minutes: 990
+tags: microsoft-fabric, manufacturing, onelake, lakehouse, real-time-intelligence, microsoft-foundry, data-agent
 ---
 
 # Start here
 
-- [Three-day manufacturing incident lab](docs/incident-lab.md) — the main route through Lakehouse, Eventhouse, Data Agent, semantic models, ontology, and Operations Agent. No Power BI report authoring is required.
-- [Synthetic data and validation](data/validation-summary.md)
+- [Full three-day onsite workshop](docs/onsite-workshop.md) — the timed agenda, labs, team exercises, and evidence checkpoints. No Power BI report authoring is required.
+- [Facilitator setup](facilitator/environment-setup.md)
+- [Quick-start technical rehearsal](docs/incident-lab.md) — use for technical checks, not as the onsite agenda.
 
 ---
 
-# Day 1: Find and verify the incident
+# Day 1: Understand Fabric and Foundry, then investigate
 
-- [Open Day 1](docs/incident-lab.md#day-1--find-and-verify-the-incident): load the plant lookup, query fault records, and compare the Data Agent's answers to KQL.
-
----
-
-# Day 2: Give the evidence business context
-
-- [Open Day 2](docs/incident-lab.md#day-2--give-the-evidence-business-context): run read-only DAX, draw an ontology, and choose a first maintenance review.
+- [Open Day 1](docs/onsite-workshop.md#day-1--understand-fabric-and-foundry-then-investigate): 09:30–16:00. Capability briefing, Lakehouse and Eventhouse labs, Foundry exercise, and architecture walkthrough.
 
 ---
 
-# Day 3: Review an Operations Agent rule and design a pilot
+# Day 2: Prepare ERP data and build grounded Q&A
 
-- [Open Day 3](docs/incident-lab.md#day-3--review-an-operations-agent-rule-and-design-a-pilot): inspect a stopped playbook, replay its threshold against historical data, and write a pilot handoff.
+- [Open Day 2](docs/onsite-workshop.md#day-2--prepare-erp-data-and-build-grounded-qa): 09:30–17:00. ERP data contracts, semantic modeling, ontology, Data Agent evaluation, and pilot selection.
 
 ---
 
-# Help and references
+# Day 3: Build, evaluate, and plan production rollout
 
-- [Troubleshooting](docs/troubleshooting.md)
-- [Facilitator guide](facilitator/README.md)
-- [References](docs/references.md)
-- [Optional report authoring](docs/day-2/03-power-bi-report.md) and [optional Foundry demonstration](docs/day-3/01-optional-foundry-demo.md) belong to the extended agenda, not the main route.
+- [Open Day 3](docs/onsite-workshop.md#day-3--build-evaluate-and-plan-production-rollout): 09:30–16:00. Pipeline and serving lab, Foundry build or replay, Operations Agent rule, and rollout planning.

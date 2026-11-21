@@ -1,6 +1,19 @@
 # Environment setup and rehearsal
 
-## Three-day incident lab: recommended setup
+## Full onsite workshop: delivery setup
+
+Use the block timings and outputs in the [onsite workshop](../docs/onsite-workshop.md). Monday has 315 activity minutes, Tuesday 360, and Wednesday 315. Keep a visible timer, have teams rotate roles after each major block, and cap setup troubleshooting at 10 minutes before switching to the documented fallback. Preserve the independent task and peer review even if a service is unavailable.
+
+| Before the block | Facilitator action | Switch if blocked |
+|---|---|---|
+| Monday briefing | Pick up to three dated, officially sourced announcements. Prepare the capability comparison and sanitize any internal architecture sketches. | Teach the capability map without claiming a preview is available. |
+| Monday data labs | Stage `plants`, `production_orders`, and the 500-event KQL table. Keep the three CSVs and evidence card available locally. | Use prepared tables, then CSV evidence if endpoints are unavailable. |
+| Tuesday model and Data Agent | Have the prepared Direct Lake model and KQL database open. Test the fault query in Viewing mode. Prepare response examples from the evidence card for scoring. | Use KQL/CSV for DAX validation and the diagram for ontology. |
+| Wednesday pipeline | Run Copy on an isolated destination ahead of time, check that the destination appears at the SQL endpoint, and reconcile counts. | Use the table-load path with the explicit quality checks. Do not present this as a Copy run. |
+| Wednesday Foundry | Only use an approved project, deployed model and published synthetic-data Fabric Data Agent. Verify the integrated tool returns evidence for a known question and that no write tools are enabled. | Run the timed replay and scorecard. Do not provision or run an account setup during class. |
+| Wednesday operations and close | Open the saved, stopped playbook; keep actions unconfigured. Bring the threshold results and record only private team decisions, owners, and dates. | Run the historical replay from CSV or the evidence card. |
+
+## Short technical rehearsal: core checks
 
 - **Day 1:** Assign an editable team Lakehouse and a KQL database with the 500 synthetic `machine_events` rows already loaded as a fallback. With a normal attendee account, verify table creation and draft Data Agent access to the KQL source. If an attendee cannot create a draft, use the peer comparison with the KQL answers.
 - **Day 2:** Prepare a Direct Lake semantic model with `plants` and `machine_events` from the workshop Lakehouse. Test that attendees can run the exact DAX in the [incident lab](../docs/incident-lab.md), including in Viewing mode. If access fails, use the KQL results and plant lookup. Only show the plant relationship and saved measure after testing them. For the live ontology extension, ask a Fabric admin to verify that **Users can create ontology (preview) items** applies to the intended group, and verify a prepared ontology before class. Otherwise use the diagram exercise.
