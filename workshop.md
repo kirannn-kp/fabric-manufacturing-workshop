@@ -17,6 +17,7 @@ tags: microsoft-fabric, manufacturing, onelake, lakehouse, real-time-intelligenc
 
 - [Full three-day onsite workshop](docs/onsite-workshop.md) — the timed agenda, labs, team exercises, and evidence checkpoints. No Power BI report authoring is required.
 - [Prerequisites and downloads](docs/onsite-workshop.md#prerequisites-and-downloads)
+- [Optional Fabric reserve labs](docs/onsite-workshop.md#optional-fabric-reserve-labs) — use only if teams finish the core flow early.
 - [Facilitator setup](facilitator/environment-setup.md)
 - [Quick-start technical rehearsal](docs/incident-lab.md) — use for technical checks, not as the onsite agenda.
 
