@@ -1,8 +1,8 @@
 # Manufacturing Operations with Microsoft Fabric
 
-Which machine should maintenance review first? Use synthetic ERP extracts and telemetry to test your answer, build grounded Q&A, and plan a pilot. No real operational data is included.
+Which machine should maintenance review first? Use a synthetic plant lookup and telemetry to test your answer, build grounded Q&A in Fabric, and plan a pilot. No real operational data is included.
 
-**Participants:** Start at [workshop.md](workshop.md) for the three-day schedule and labs. Use the assigned Fabric workspace and the three linked synthetic CSVs. A live Day 3 Foundry build needs a prepared project; use the evaluation replay if it is unavailable. No Power BI report authoring is required.
+**Participants:** Start at [workshop.md](workshop.md) for the three-day schedule, prerequisites, and two synthetic CSVs. Use the same Fabric workspace on Days 1 and 2. Day 3 is a facilitator-led Foundry walkthrough and PoC discussion; no participant Foundry access or Power BI report authoring is required.
 
 **Facilitators:** Follow the onsite checklist in [environment setup](facilitator/environment-setup.md). The [short incident rehearsal](docs/incident-lab.md) checks the core assets; it is not the full agenda. Use the evidence card in the full workshop for team checkpoints.
 
