@@ -15,9 +15,9 @@ tags: microsoft-fabric, manufacturing, onelake, lakehouse, real-time-intelligenc
 
 # Start here
 
-- [Full three-day onsite workshop](docs/onsite-workshop.md) — the timed agenda, labs, team exercises, and evidence checkpoints. No Power BI report authoring is required.
+- [Full three-day onsite workshop](docs/onsite-workshop.md) — the timed agenda, labs, and evidence checkpoints. Work on your own or in a pair; no teams or Power BI report authoring are required.
 - [Prerequisites and downloads](docs/onsite-workshop.md#prerequisites-and-downloads)
-- [Optional Fabric reserve labs](docs/onsite-workshop.md#optional-fabric-reserve-labs) — use only if teams finish the core flow early.
+- [Optional Fabric reserve labs](docs/onsite-workshop.md#optional-fabric-reserve-labs) — use only if you finish the core flow early.
 - [Facilitator setup](facilitator/environment-setup.md)
 - [Quick-start technical rehearsal](docs/incident-lab.md) — use for technical checks, not as the onsite agenda.
 
@@ -31,13 +31,13 @@ tags: microsoft-fabric, manufacturing, onelake, lakehouse, real-time-intelligenc
 
 # Day 1: Build the data assets in Fabric
 
-- [Open Day 1](docs/onsite-workshop.md#day-1--build-the-data-assets-in-fabric): 09:30–16:00. The facilitator leads theory and a demo until 11:30. Then teams build a Lakehouse and Eventhouse, verify data, and create a maintenance dashboard if enabled.
+- [Open Day 1](docs/onsite-workshop.md#day-1--build-the-data-assets-in-fabric): 09:30–16:00. The facilitator leads theory and a demo until 11:30. Then you build a Lakehouse and Eventhouse, verify data, and create a maintenance dashboard if enabled.
 
 ---
 
 # Day 2: Use the same assets to build in Fabric
 
-- [Open Day 2](docs/onsite-workshop.md#day-2--use-the-same-assets-to-build-in-fabric): 09:30–16:00. The facilitator leads a recap, theory, and a demo until 11:30. Then teams reuse Day 1 data for the semantic model, Data Agent, ontology, and Operations Agent replay.
+- [Open Day 2](docs/onsite-workshop.md#day-2--use-the-same-assets-to-build-in-fabric): 09:30–16:00. The facilitator leads a recap, theory, and a demo until 11:30. Then you reuse Day 1 data for the semantic model, Data Agent, ontology, and Operations Agent replay.
 
 ---
 

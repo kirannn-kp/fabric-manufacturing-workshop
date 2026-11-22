@@ -2,7 +2,7 @@
 
 ## Full onsite workshop: delivery setup
 
-Use the [onsite schedule](../docs/onsite-workshop.md). Monday and Tuesday each have 315 activity minutes and start with a facilitator-led 09:30–11:30 block (including a 15-minute break); team labs start at 11:30. Wednesday has 210 activity minutes and ends at 14:00. Keep the same workspace and item names across both Fabric days. Cap setup troubleshooting at 10 minutes before using a fallback.
+Use the [onsite schedule](../docs/onsite-workshop.md). Monday and Tuesday each have 315 activity minutes and start with a facilitator-led 09:30–11:30 block (including a 15-minute break); labs start at 11:30. Wednesday has 210 activity minutes and ends at 14:00. No teams are required. In a shared workspace, give each participant or pair a unique lab ID such as `lab07`. Keep the same workspace and item names across both Fabric days. Cap setup troubleshooting at 10 minutes before using a fallback.
 
 | Before the block | Facilitator action | Switch if blocked |
 |---|---|---|
