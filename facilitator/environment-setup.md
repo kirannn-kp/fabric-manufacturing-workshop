@@ -2,13 +2,14 @@
 
 ## Full onsite workshop: delivery setup
 
-Use the [onsite schedule](../docs/onsite-workshop.md). Monday and Tuesday each have 315 activity minutes; Wednesday has 210 and ends at 14:00. Keep the same workspace and item names across both Fabric days. Cap setup troubleshooting at 10 minutes before using a fallback.
+Use the [onsite schedule](../docs/onsite-workshop.md). Monday and Tuesday each have 315 activity minutes and start with a facilitator-led 09:30–11:30 block (including a 15-minute break); team labs start at 11:30. Wednesday has 210 activity minutes and ends at 14:00. Keep the same workspace and item names across both Fabric days. Cap setup troubleshooting at 10 minutes before using a fallback.
 
 | Before the block | Facilitator action | Switch if blocked |
 |---|---|---|
 | Monday concepts and demo | Show a file, Lakehouse table, and KQL query. Explain the two copies of telemetry. | Use the item diagram and evidence card. |
 | Monday data labs | Stage a fallback Lakehouse with `plants` and `machine_events`, plus a KQL database with the 500 events. | Use prepared tables, then CSV checks if necessary. |
 | Monday SQL and dashboard | The SQL check and both dashboard results were verified live. Both tiles rendered after reopening, but their custom titles did not persist in rehearsal. Identify the tiles by their columns. | Use the prepared endpoint or CSV for SQL checks; keep KQL results in two named tabs if dashboard creation is unavailable. |
+| Tuesday theory and demo | Use Monday's assets to explain models, ontology, and both agents. Before 11:30, show one DAX count, check one Data Agent answer against KQL, and preview the stopped playbook. | Show the prepared results and evidence card; do not use the opening block for participant setup. |
 | Tuesday model, Data Agent, and ontology | Open the prepared two-table model and KQL database. Use the verified DAX query in Viewing mode. Only offer relationship editing or live ontology if separately verified. | Use the read-only model, KQL evidence, and the ontology diagram. |
 | Tuesday Operations Agent | Open the saved, stopped playbook. Leave actions unconfigured; use the reference KQL for the threshold replay. | Review the rule and replay from the evidence card. |
 | Wednesday Foundry and PoC | Bring a diagram and the Day 2 answers. Use a live read-only demo only if already prepared and verified. Close by recording PoC scope, owner, success criteria, and a dated next step. | Deliver the same walkthrough without Foundry. No participant account is needed. |
