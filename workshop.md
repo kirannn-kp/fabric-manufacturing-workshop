@@ -37,7 +37,7 @@ tags: microsoft-fabric, manufacturing, onelake, lakehouse, real-time-intelligenc
 
 # Day 2: Use the same assets to build in Fabric
 
-- [Open Day 2](docs/onsite-workshop.md#day-2--use-the-same-assets-to-build-in-fabric): 09:30–16:00. The facilitator leads a recap, theory, and a demo until 11:30. Then you reuse Day 1 data for the semantic model, Data Agent, ontology, and Operations Agent replay.
+- [Open Day 2](docs/onsite-workshop.md#day-2--use-the-same-assets-to-build-in-fabric): 09:30–16:00. The facilitator leads a recap, theory, and a demo until 11:30. Then you build a Spark scorecard, reconcile it with KQL and a semantic model, test the Data Agent, and defend your maintenance decision. Close with criteria for a fair Fabric vs. Databricks pilot.
 
 ---
 
